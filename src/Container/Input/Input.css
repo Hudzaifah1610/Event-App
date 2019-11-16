@@ -1,0 +1,89 @@
+
+.man .in-man input {
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    /* width: 50vw; */
+    position: relative;
+    top: 2px;
+}
+.man .in-man .uwong{
+    width: 60px !important;
+    border-radius: 100% !important;
+    position: absolute;
+    /* right: 30px; */
+    /* top: 3px; */
+}
+.man .in-man .btn{
+    padding: 2px 5px;
+    font-size: 15px;
+    position: absolute;
+    /* right: 120px; */
+    border: 1px solid #4da1ff;
+    outline: none;
+    /* float: right; */
+}
+.man .in-man .btn:hover{
+    background: #4da1ff;
+}
+.man .in-man .btn img{
+    width: 15px;
+    margin-right: 5px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .man .in-man .uwong{
+        right: 20px;
+        top: 3px;
+    }
+    .man .in-man .btn{
+    right: 100px;
+    }
+    .man {
+        padding: 20px 25px;
+    }
+    .man .in-man input{
+        width: 25vw;
+    }
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .man .in-man .uwong{
+        right: 20px;
+        top: 3px;
+    }
+    .man .in-man .btn{
+    right: 100px;
+    }
+    .man {
+        padding: 20px 25px;
+    }
+    .man .in-man input{
+        width: 25vw;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .man .in-man .uwong{
+        right: 30px;
+        top: 13px;
+    }
+    .man .in-man .btn{
+    right: 120px;
+    }
+    .man {
+        padding: 30px 50px;
+    }
+    .man .in-man input{
+        width: 50vw;
+    }
+ }

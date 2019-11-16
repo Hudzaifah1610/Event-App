@@ -1,0 +1,71 @@
+.description .btn-outline-primary{
+    background: none;
+    border: 2px solid lightskyblue;
+    position: relative;
+    top: 0px;
+    float: right
+    /* left: 380px !important; */
+}
+.description .btn-outline-primary:hover{
+    color: rgb(0, 140, 255);
+}
+
+.description .input-title{
+    border-radius: none;
+    /* width: 90%; */
+    margin: auto;
+}
+.description .pe-check{
+    font-size: 12px;
+}
+.description .all-check{
+    margin-top: 10px;
+    margin-left: -5px;
+}
+.description .box-drop{
+    width: 100%;
+    height: 100px;
+    /* background: blue; */
+    margin-top: 20px;
+    border: 1px dashed blue;
+}
+.description .fa-cloud-upload{
+    position: relative;
+    top: 5px;
+    left: 130px;
+    margin-right: 5px;
+}
+.description .box-drop .all-drop{
+    text-align: center;
+    margin: auto !important;
+    margin-top: 35px !important;
+    color: rgb(0, 140, 255);
+}
+.description input{
+    border: 1px solid rgb(236, 231, 231);
+    border-radius: 3px;
+    padding: 0 0 0 10px;
+}
+.description .ad{
+    /* border-radius: 4px !important; */
+    /* border: none; */
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    float: right;
+    /* left: 335px; */
+    /* top: -32px; */
+    padding: 0 10px;
+    border:  1px solid rgb(0, 140, 255);
+    border-radius: 3px !important;
+}
+.description .ad2{
+    position: absolute;
+    /* float: right !important; */
+    /* left: 310px; */
+    right: 5px !important;
+    top: 7px;
+    padding: 0 10px;
+    border-radius: 3px !important;
+    border:  1px solid rgb(0, 140, 255);
+}

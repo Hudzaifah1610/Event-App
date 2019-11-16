@@ -1,0 +1,26 @@
+.form .event-form {
+  font-weight: 500;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+.form .btn-secondary {
+  background: rgb(228, 224, 224, 0.3);
+  padding: 5px 20px;
+  color: grey;
+}
+.form .btn-secondary:hover {
+  background: rgb(212, 205, 205);
+  color: white;
+}
+.form .descr {
+  /* background: yellow; */
+  background: #fff;
+  margin-right: 30px;
+  /* margin: 20px; */
+  padding: 35px;
+}
+.form .add {
+  /* background: lime; */
+  background: #fff;
+  /* margin: 20px; */
+  padding: 35px;
+}
